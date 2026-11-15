@@ -1,0 +1,47 @@
+# AI_PR_PR_PROVIDERS — Project Memory
+# Auto-synced | 581 observations
+
+**Stack:** Python
+
+# 🛡️ GLOBAL SAFETY RULES
+
+- **NEVER** run `git clean -fd` or `git reset --hard` without checking `git log` and verifying commits exist.
+- **NEVER** delete untracked files or folders blindly. Always backup or stash before bulk edits.
+
+# 🧭 ACTIVE CONTEXT
+
+> Always read `.cursor/active-context.md` for exact instructions on the specific file you are currently editing. It updates dynamically.
+
+# 🔴 CRITICAL — DO NOT IGNORE
+
+- **Don't use panic for normal error handling — return errors** — Don't use panic for normal error handling — return errors
+- **Always check errors — don't use _ for error return values** — Always check errors — don't use _ for error return values
+- **Handle exceptions specifically — not bare except:** — Handle exceptions specifically — not bare except:
+- **Don't use mutable default arguments — def f(items=[]) is a bug** — Don't use mutable default arguments — def f(items=[]) is a bug
+- **Don't mix CommonJS (require) and ESM (import) in same project** — Don't mix CommonJS (require) and ESM (import) in same project
+
+# 📐 Conventions
+
+- Use goroutines with proper synchronization (channels or sync)
+- Use context for cancellation and timeouts
+- Use defer for cleanup operations (close files, unlock mutexes)
+- Follow PEP 8 style guide
+- Use pathlib for file paths, not os.path string manipulation
+- Use virtual environments (venv, poetry, or conda)
+- Use f-strings for string formatting, not .format() or %
+- Use context managers (with) for file and resource operations
+
+# ⚡ Available Tools (ON-DEMAND only)
+- `save(title, content, category)` — Save a note + auto-detect conflicts
+- `batch_save(items[])` — Save multiple notes in 1 call
+- `query(text)` — Search memory for architecture, past fixes, decisions
+- `search(text)` — Full-text search for details
+- `check_errors()` — Check compiler errors after edits
+
+> ℹ️ DO NOT call get_context() or get_gotchas() at startup — context above IS your context.
+
+---
+*Auto-synced | 2026-03-26*
+
+# BrainSync Intelligence (Auto-Synced)
+[BrainSync Rules](.brainsync/agent-rules.md)
