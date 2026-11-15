@@ -1,0 +1,8 @@
+[
+  {
+    "email": "user@example.com",
+    "name": "developer",
+    "session": "YOUR_UPSTAGE_SESSION_COOKIE_HERE",
+    "org_id": "YOUR_UPSTAGE_ORG_ID_HERE"
+  }
+]
